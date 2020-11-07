@@ -4,7 +4,13 @@ namespace OpenCvTool
 {
     public class VideoTool
     {
-
+        /// <summary>
+        /// 从rtsp协议链接读取保存视频
+        /// </summary>
+        /// <param name="rtspUrl"></param>
+        /// <param name="saveFile"></param>
+        /// <param name="isStop"></param>
+        /// <returns></returns>
         public int SaveVideoFromRtsp(string rtspUrl, string saveFile, ref bool isStop)
         {
             //HandleRs rs = new HandleRs();
@@ -33,9 +39,9 @@ namespace OpenCvTool
         }
 
 
-        public int RecordScreenVideo(string saveFile,ref bool isStop)
+        public int RecordScreenVideo(string saveFile, ref bool isStop)
         {
-            
+
             return 0;
         }
     }

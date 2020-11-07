@@ -5,3 +5,7 @@
 Class: VideoTool  <br>
 Method: SaveVideoFromRtsp // 从rtsp协议链接读取保存视频 <br>
 
+<br>
+
+Class: ImageTool  <br>
+Method: CutFaceFromPic // 从图片里裁剪人脸 <br>
